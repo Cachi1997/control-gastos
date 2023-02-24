@@ -28,7 +28,11 @@ const diccionarioIconos = {
     suscripciones: IconoSuscripciones
 }
 
-export const Gasto = ({gasto, setGastoEditar, eliminarGasto}) => {
+export const Gasto = ({
+        gasto, 
+        setGastoEditar, 
+        eliminarGasto
+    }) => {
     const { categoria, nombre, cantidad, id, fecha } = gasto;
 
     const leadingActions = () => (

@@ -3,7 +3,14 @@ import CerrarBtn from "../img/cerrar.svg"
 import { Mensaje } from "./Mensaje"
 
 
-export const Modal = ({setModal, animarModal, setAnimarModal, guardarGasto, gastoEditar, setGastoEditar}) => {
+export const Modal = ({
+        setModal, 
+        animarModal, 
+        setAnimarModal, 
+        guardarGasto, 
+        gastoEditar, 
+        setGastoEditar
+    }) => {
 
     const [nombre, setNombre] = useState("")
     const [cantidad, setCantidad] = useState("")
