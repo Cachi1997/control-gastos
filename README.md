@@ -11,16 +11,13 @@ Tambien permite almacenarlos por categoria y tambien listarlos en base al mismo.
 ## Instalacion
 
 -Primero debes clonar este proyecto
--Luego abre una linea de comandos y escribe lo siguiente
 
+-Luego abre una linea de comandos y escribe lo siguiente
 ```sh
 npm i
 ```
-
 -Luego
-
 ```sh
 npm run dev
 ```
-
 Listo! La app ya esta ejecutandose en localmente
